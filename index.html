@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrador Front</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+<header>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark" >
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5" href="#">
+        <img src="img-tp/codoacodo.png" alt="Logo"  height="50px" class="d-inline-block align-text " >
+      
+        Conf BsAs
+      </a>
+
+     
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto me-5">
+          <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+          <a class="nav-link" href="#losOradores">Los oradores</a>
+          <a class="nav-link" href="#lugarFecha">El lugar y la fecha</a>
+          <a class="nav-link" href="#convertiteOrador">Conviértete en orador</a>
+          <a class="nav-link" style="color: green;" href="#">Comprar tickets</a>
+      </div>
+      </div>
+    </div>
+  </nav>
+  </header>
+
+  <main>
+
+        <div class="carrusel" id="carruselInicio">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img-tp/ba1.jpg" class="d-block w-100" alt="..." >
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img-tp/ba2.jpg" class="d-block w-100" alt="..." >
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img-tp/ba3.jpg" class="d-block w-100" alt="..." >
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                
+                  
+                
+              </div>
+        </div>
+    <div>
+        <figure class="text-center" id="losOradores" name="losOradores">
+            <figcaption class="blockquote-footer">
+                <p>CONOCE A LOS</p>
+              </figcaption>
+            <blockquote class="blockquote">
+              <h3>ORADORES</h3>
+            </blockquote>
+        </figure>
+        
+    </div>
+    <!-- CARD ORADORES -->
+    <div class="container  d-flex justify-content-center" id="card-oradores" name="oradores">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img-tp/steve.jpg" class="card-img-top" alt="Steve Jobs">
+                <div class="card-body">
+                  <button type="button" class="btn btn-warning btn-sm">JavaScript</button>
+                  <button type="button" class="btn btn-info btn-sm" style="color: white;">React</button>
+                  <hr>
+                  <h5 class="card-title">Steve Jobs</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, ad! Aperiam, aliquid facere sit, optio perferendis ipsum pariatur ea cumque neque molestiae, quibusdam eligendi quam unde dicta natus. Repudiandae, nobis.</p>
+                  
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img-tp/bill.jpg" class="card-img-top" alt="...">
+                <div class="card-body ">
+                  <button type="button" class="btn btn-warning btn-sm">JavaScript</button>
+                  <button type="button" class="btn btn-info btn-sm" style="color: white;">React</button>
+                  <hr>
+                  <h5 class="card-title">Bill Gates</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ab tempora iure quaerat saepe deserunt minus cumque quibusdam ducimus hic. Sapiente voluptatem labore dolorem, consectetur amet officiis vero delectus eius!</p>
+                  
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="img-tp/ada.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <button type="button" class="btn btn-secondary btn-sm" style="color: white;">Negocios</button>
+                  <button type="button" class="btn btn-danger btn-sm" style="color: white;">Startups</button>
+                  <hr>
+                  <h5 class="card-title">Ada Lovelace</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dicta nesciunt cupiditate provident perspiciatis optio commodi ex qui, quasi corporis quia, odio deserunt! Explicabo facilis deleniti incidunt praesentium officia eligendi!</p>
+                  
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+<br>
+<br>
+<!-- LA PLAYA -->
+<div class="container-fluid p-0 " id="lugarFecha" name="lugarFecha">
+    <div class="row">
+      <div class="col-6">
+      <img src="img-tp/honolulu.jpg" alt="playa" class="img-fluid" >
+      </div>
+      <div class="col-6 bg-dark">
+        <div class="card bg-dark mt-3 border-dark " style="color: white;" >
+          <div class="card-body ">
+            <h5 class="card-title">Bs As - Octubre</h5>
+            <p class="card-text">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. honolulu es la más sureña de entre las principales ciudades estadounidense. Aunque el nombre honolulu se refiere al área urbana en la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie).</p>
+            <a href="#" class="btn btn-outline-light">Conocé más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+
+  
+    <br>
+    <br>
+    <figure class="text-center" id="convertiteOrador" name="convertiteOrador">
+      <figcaption class="blockquote-footer">
+        <p>CONVIÉRTETE EN UN</p>
+        </figcaption>
+      <blockquote class="blockquote">
+        <h3>ORADOR</h3>
+        
+      </blockquote>
+      <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+  </figure>
+ <div class="container" style="width: 50%;">
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+    </div>
+  </div>
+  <br>
+  <div class="form-floating">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+    <label for="floatingTextarea2">Sobre qué quieres hablar?</label>
+  </div>
+  <label for="floatingPlaintextInput">Recuerda incluir un título para tu charla.</label>
+  <br>
+  <br>
+  <div class="d-grid gap-2">
+    <button class="btn" style="background-color: green; color: white;" type="button">Enviar</button>
+    
+  </div>
+  </div>
+   
+</main>
+<br>
+<br>
+<footer>
+  <div class="container-fluid d-flex align-items-center  text-center bg-dark" style="height: 80px;">
+  <div class="container  bg-dark text-white">
+    <div class="row text-center d-flex align-items-center">
+      <div class="col">
+       <a href="#" class="text-white text-decoration-none"> Preguntas frecuentes</a>
+      </div>
+      <div class="col">
+        <a href="#" class="text-white text-decoration-none"> Contactános</a>
+      </div>
+      <div class="col">
+        <a href="#" class="text-white text-decoration-none"> Prensa</a>
+      </div>
+      <div class="col">
+        <a href="#" class="text-white text-decoration-none"> Conferencia</a>
+      </div>
+      <div class="col">
+        <a href="#" class="text-white text-decoration-none"> Terminos y condiciones</a>
+      </div>
+      <div class="col">
+        <a href="#" class="text-white text-decoration-none">Privacidad</a>
+      </div>
+      <div class="col">
+        <a href="#" class="text-white text-decoration-none"> Estudiantes</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  </footer>
+    
+  
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
